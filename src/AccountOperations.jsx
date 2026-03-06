@@ -16,7 +16,8 @@ function AccountOperations() {
   function handlePayLoan() {}
 
   return (
-    <div>
+    <>
+      <div>
       <h2>Your account operations</h2>
       <div className="inputs">
         <div>
@@ -72,6 +73,7 @@ function AccountOperations() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 
