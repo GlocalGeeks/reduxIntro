@@ -6,6 +6,9 @@ import { useSelector } from "react-redux";
 
 function App() {
   const fullName = useSelector((store) => store.customer.fullName);
+  const balance = useSelector(store => store.account)
+  console.log(balance);
+  
 
   return (
     <div>
