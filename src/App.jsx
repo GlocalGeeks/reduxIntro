@@ -4,6 +4,7 @@ import AccountOperations from "./features/accounts/AccountOperations";
 import BalanceDisplay from "./features/accounts/BalanceDisplay";
 import { useSelector } from "react-redux";
 
+
 function App() {
   const fullName = useSelector((store) => store.customer.fullName);
   const balance = useSelector(store => store.account)
